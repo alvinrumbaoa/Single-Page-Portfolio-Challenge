@@ -550,7 +550,7 @@
     "@chakra-ui/form-control" "2.0.4"
     "@chakra-ui/utils" "2.0.4"
 
-"@chakra-ui/theme-tools@2.0.5", "@chakra-ui/theme-tools@^2.0.2":
+"@chakra-ui/theme-tools@2.0.5", "@chakra-ui/theme-tools@^2.0.2", "@chakra-ui/theme-tools@^2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.5.tgz#16a77da55f9933542d74fa0a5fc7bf7dd4f362f7"
   integrity sha512-JuFKYWfVnZKnX95sM05a/0NpTzwciPTAZXfAJYwDOiy4EEqXUgEQpkHxOjC929wpzIVb3Q2Wa/HvS1v8C2f+mw==
@@ -749,6 +749,21 @@
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
+
+"@fontsource/inter@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.11.tgz#3c45014821e8c82b247a291f1944dd2764a2d1ed"
+  integrity sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w==
+
+"@fontsource/khand@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/khand/-/khand-4.5.8.tgz#b96bb00842d015e3966b2d85a6266403535aca80"
+  integrity sha512-gX708MH0BOFkQjkcPHucJorCn83t2k8zOu6LjOlu8OWzSBL+Z4M7O6p1YIrNKMLL2pkCf12uyAHTCjYO14Qjiw==
+
+"@fontsource/plus-jakarta-sans@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-4.5.9.tgz#2dd784a847c15e7073d54eccc5301da9aaacdff9"
+  integrity sha512-6+o+aSPH1OVNYz1Cpti37SYe8BHHvgihnhcbScZrb7yKv+HSwku20XUDGdvXS0OC95UFvQBBuEDxdnH9zj1lBA==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"

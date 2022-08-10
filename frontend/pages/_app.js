@@ -1,13 +1,23 @@
-import '../styles/globals.css'
-import { ChakraProvider } from '@chakra-ui/react'
+import Layout from '../components/Layout'
+import { ChakraProvider , useColorMode , useColorModeValue} from '@chakra-ui/react'
+import theme from '../components/theme.fonts'
 
 function MyApp({ Component, pageProps }) {
-  
-  return(
-  
-  <ChakraProvider>
-     <Component {...pageProps} />
-  </ChakraProvider>
-  )}
+
+ 
+
+
+  return (
+   
+          <ChakraProvider theme={theme}>
+              <Layout>
+                <Component {...pageProps} />
+              </Layout>
+
+          </ChakraProvider>
+   
+   
+  )
+}
 
 export default MyApp
