@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Layout = ({children})  => {
 	return (
-		<Flex bgColor="#FFF7F0"  direction="column" h="100vh">   
+		<Flex bgColor="#FFF7F0"  direction="column" >   
 			   <Nav/>
 				{children}
 			   <Footer/>
