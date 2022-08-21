@@ -53,9 +53,9 @@ export default function Home() {
             <MotionFlex whileHover={{ scale: 1.1}}  whileTap={{ scale: 0.9 }} >
                <Image  justify={{sm:"center"}} src="/images/alvin.png" h={{sm:"300",md:"400",lg:"440"}}  />
             </MotionFlex> 	
-            <Flex w={{sm:"100%",lg:"30%"}} display="flex" align={{sm:"center"}}justify="center" direction="column">
-              <Heading mt="10" textAlign={{sm:"center"}}fontStyle="bold">I’m Alvin, and I’d love to work on your next project</Heading>
-              <Text mt={7} textAlign={{sm:"center"}} color="#7A746E">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</Text>
+            <Flex w={{sm:"100%",lg:"30%"}} display="flex" align={{sm:"center", lg:"start"}}justify="center" direction="column">
+              <Heading mt="10" textAlign={{sm:"center", lg:"start"}}fontStyle="bold">I’m Alvin, and I’d love to work on your next project</Heading>
+              <Text mt={7} textAlign={{sm:"center", lg:"start"}} color="#7A746E">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</Text>
               <Button mt={7} p={6} w="228px" h="56px" borderRadius="30px" color="white" bg="#EB7565" _hover={{ bg: '#F6A560' }} >Free Consultation </Button>
             </Flex>
           </Flex>
@@ -101,10 +101,10 @@ export default function Home() {
                     <div />
                   )}
       	  </HStack>
-          <Flex mt={20} p={10} w={{sm:"500px", lg:"1110px" }} h="320px" display="flex" bg="#000000" justify="space-between" align="center" direction={{sm:"column"}}>
-            <Box align="center" w={{sm:"100%",lg:"50%"}}>
-              <Heading align={{sm:"center"}} color="white">Book a call with me</Heading>
-              <Text mt={3} align={{sm:"center"}} color="white" >I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</Text>
+          <Flex mt={20} p={10} w={{sm:"500px", lg:"1110px" }} h="320px" display="flex" bg="#000000" justify="space-between" align="center" direction={{sm:"column",lg:"row"}}>
+            <Box align={{sm:"center"}} w={{sm:"100%",lg:"50%"}}>
+              <Heading align={{sm:"center",lg:"start"}} color="white">Book a call with me</Heading>
+              <Text mt={3} align={{sm:"center", lg:"start"}} color="white" >I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</Text>
             </Box>
             <Button p={6} w="228px" h="56px" borderRadius="30px" bgColor="#EB7565" _hover={{bg:'#F6A560'}}color="#FFF7F0">Free Consultation</Button>
           </Flex>
