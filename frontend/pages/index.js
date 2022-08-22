@@ -40,18 +40,18 @@ export default function Home() {
           <Heading fontSize={{sm:"32px",md:"40px",lg:"56px"}} fontWeight="900">Design Solution made easy</Heading>
           <Text w={{sm:"300px",lg:"600px"}} fontSize={{sm:"17px",md:"18px",lg:"19px"}} color="#7A746E" textAlign="center" m={4}> With over two years of experience in various design disciplines, I’m your one-stop shop for your design needs.</Text>
 
-          <Grid  h={{sm:"100%",lg:'300px'}} w={{md:"100%",lg:"50%"}} templateRows='repeat(2, 1fr)' templateColumns={{sm:'repeat(2, 1fr)', lg:'repeat(6, 1fr)'}} m={4} gap={3}>
-            <GridItem  p={2}  borderRadius={5} rowSpan={{sm:1,md:1,lg:2}} colSpan={2} bg='#755CDE' direction='row'  _hover={{bg:"#000000"}}><Image ml={{sm:200,lg:140 }}p={2} src="/images/Graphic Design.png" height={{sm:"100" ,lg:"180" }} alignContent=""/><Text fontSize="1.4em" mt={{sm:10,lg:120}} p={2} color="white" fontWeight="800" justify="flex-end" alignItems="flex-end">Graphic Design</Text></GridItem>
-            <GridItem  p={2} borderRadius={5} colSpan={1} bg='#F6A560' _hover={{bg:"#74746E"}}><Image p={2}  ml={50}  src="/images/ui.png" height="70" justify="flex-end"/><Text mt={20} color="white" fontWeight="900" fontSize="lg">UX/UI</Text> </GridItem>
-            <GridItem p={2} borderRadius={5} colSpan={1} bg='#F39E9E' _hover={{bg:"#74746E"}}><Image p={2} ml={50} src="/images/apps.svg" height="70"  justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Apps</Text> </GridItem>
-            <GridItem p={2} borderRadius={5} colSpan={2} bg='#61C4B7' _hover={{bg:"#74746E"}}><Image p={2}  ml={120} src="/images/photo.png"  height="70"justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Photography</Text> </GridItem>
-            <GridItem p={2} borderRadius={5} colSpan={2} bg='#EB7565' _hover={{bg:"#74746E"}}><Image p={2}  ml={140} src="/images/ illustration.png"  height="70" justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Illustrations</Text> </GridItem>
-            <GridItem p={2} borderRadius={5} colSpan={2} bg='#552049' _hover={{bg:"#74746E"}}><Image p={2}  ml={140} src="/images/motion.png"  height="70" justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Motion Graphics</Text> </GridItem>
+          <Grid  h={{sm:"100%",lg:'300px'}} w={{md:"100%",lg:"70%"}} templateRows='repeat(2, 1fr)' templateColumns={{sm:'repeat(2, 1fr)', lg:'repeat(6, 1fr)'}} m={4} gap={3}>
+            <GridItem  p={2}  borderRadius={5} rowSpan={{sm:1,md:1,lg:2}} colSpan={2} bg='#755CDE' direction='row'  _hover={{bg:"#000000"}}><Image ml={{sm:200,lg:280 }}p={2} src="/images/Graphic Design.png" height={{sm:"100" ,lg:"180" }} alignContent=""/><Text fontSize="1.4em" mt={{sm:10,lg:150}} p={2} color="white" fontWeight="800" justify="flex-end" alignItems="flex-end">Graphic Design</Text></GridItem>
+            <GridItem  p={2} borderRadius={5} colSpan={1} bg='#F6A560' _hover={{bg:"#74746E"}}><Image p={2}  ml={120}  src="/images/ui.png" height="70" justify="flex-end"/><Text mt={20} color="white" fontWeight="900" fontSize="lg">UX/UI</Text> </GridItem>
+            <GridItem p={2} borderRadius={5} colSpan={1} bg='#F39E9E' _hover={{bg:"#74746E"}}><Image p={2} ml={120} src="/images/apps.svg" height="70"  justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Apps</Text> </GridItem>
+            <GridItem p={2} borderRadius={5} colSpan={2} bg='#61C4B7' _hover={{bg:"#74746E"}}><Image p={2}  ml={250} src="/images/photo.png"  height="70"justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Photography</Text> </GridItem>
+            <GridItem p={2} borderRadius={5} colSpan={2} bg='#EB7565' _hover={{bg:"#74746E"}}><Image p={2}  ml={280} src="/images/ illustration.png"  height="70" justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Illustrations</Text> </GridItem>
+            <GridItem p={2} borderRadius={5} colSpan={2} bg='#552049' _hover={{bg:"#74746E"}}><Image p={2}  ml={280} src="/images/motion.png"  height="70" justify="flex-end"/><Text mt={20} color="white" fontWeight="900">Motion Graphics</Text> </GridItem>
           </Grid>
 
           <Flex mt={{sm:20, md:50, lg:300}} display="flex" justify="space-around" align={{sm:"center"}} direction={{sm:"column" ,md:"column",lg:"row" }}>
             <MotionFlex whileHover={{ scale: 1.1}}  whileTap={{ scale: 0.9 }} >
-               <Image  justify={{sm:"center"}} src="/images/alvin.png" h={{sm:"300",md:"400",lg:"440"}}  />
+               <Image  justify={{sm:"center"}} src="/images/alvin.png" h={{sm:"300",md:"400",lg:"410"}}  />
             </MotionFlex> 	
             <Flex w={{sm:"100%",lg:"30%"}} display="flex" align={{sm:"center", lg:"start"}}justify="center" direction="column">
               <Heading mt="10" textAlign={{sm:"center", lg:"start"}}fontStyle="bold">I’m Alvin, and I’d love to work on your next project</Heading>
